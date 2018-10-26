@@ -1,0 +1,19 @@
+{
+  "name": "bai05-flask-bootstrap-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "yarn": "^1.10.1"
+  }
+}
