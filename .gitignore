@@ -62,3 +62,5 @@ typings/
 
 app/__pycache__
 app/instance
+*alembic.ini
+alembic
