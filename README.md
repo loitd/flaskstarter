@@ -3,16 +3,17 @@ Loitd Flask Starter Template
 
 # How to run
 ## Install VirtualEnvironment
-	```pip3 install virtualenvwrapper```
-	```pip3 install virtualenvwrapper-win```
-	`mkvirtualenv -p C:\Python36\python.exe rocket`
+	pip3 install virtualenvwrapper
+	pip3 install virtualenvwrapper-win
+### Create new virtualenvironment if not exist
+	mkvirtualenv -p C:\Python36\python.exe rocket
 ### Show all virtual environments:
-	`lsvirtualenv`
-	`rmvirtualenv rocket`
-	`cpvirtualenv ENVNAME [TARGETENVNAME]`
-	`allvirtualenv pip install -U pip`
+	lsvirtualenv
+	rmvirtualenv rocket
+	cpvirtualenv ENVNAME [TARGETENVNAME]
+	allvirtualenv pip install -U pip
 ### Switch to new created environment
-	`workon rocket`
+	workon rocket
 ### Save and reinstall the requirement
-	`(rocket)$ pip freeze > requirements.txt`
-	`pip install -r requirements.txt`
+	(rocket)$ pip freeze > requirements.txt
+	pip install -r requirements.txt
