@@ -34,3 +34,16 @@ Once we have our migration script ready, we can run `alembic upgrade head` to mi
 	alembic upgrade head
 Above, we use ae1 to refer to revision ae1027a6acf. Alembic will stop and let you know if more than one version starts with that prefix.
 	alembic upgrade ae1
+To move two versions from the current
+	alembic upgrade +2
+Negative values are accepted for downgrades:
+	alembic downgrade -1
+	alembic downgarde base
+Relative identifiers may also be in terms of a specific revision. For example, to upgrade to revision ae1027a6acf plus two additional steps:
+	alembic upgrade ae10+2
+### Getting some information with Alembic
+	alembic current -v
+	alembic history -v
+	alembic history -r1975ea:ae1027
+### Cons
+There's currently no command to delete migrations from your versions directory
